@@ -1,38 +1,98 @@
-.App {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+// variables
+$color: #da657f;
+$hover-timing: all 0.2s ease;
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $color;
+}
+.banner {
   text-align: center;
+  background-color: #fed4d3;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  background-color: #ffedec;
+  cursor: pointer;
+  ul {
+    list-style-type: none;
+    display: inherit;
+    margin-left: 40px;
+    li {
+      margin-right: 15px;
+      font-size: 22px;
+      position: relative;
+      &:before {
+        content: "";
+        width: 0;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        bottom: -4px;
+      }
+      &:hover:before {
+        width: 100%;
+      }
+      // &:hover {
+      //   ul.subnav {
+      //     //visibility: visible;
+      //     opacity: 1;
+      //     top: 64px;
+      //   }
+      // }
+    }
   }
-  to {
-    transform: rotate(360deg);
+  #utility {
+    margin-right: 40px;
+    i.icons {
+      margin-right: 20px;
+      font-size: 24px;
+      color: $color;
+    }
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+      font-size: 30px;
+      margin-left: 10px;
+      font-family: "Playfair Display", serif;
+      color: $color;
+    }
+  }
+  .navigation-links {
+    // .subnav {
+    //   visibility: visible;
+    //   position: absolute;
+    //   display: flex;
+    //   flex-direction: row;
+    //   top: 66px;
+    //   background: #F9F9F9;
+    //   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    //   border-radius: 12px;
+    //   opacity: 0;
+    //   transition: $hover-timing;
+    // }
+    .subnav{
+      position: absolute;
+      display: flex;
+      top:57px;
+      background: #f9f9f9;
+      box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+       border-radius: 12px;
+       transition: $hover-timing;
+    }
   }
 }
