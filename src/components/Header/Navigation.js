@@ -7,26 +7,7 @@ export default function Navigation() {
         <header>
   <div className="banner">SAVE UP TO $40 ON ALL SUNGLASSES • FREE STANDARD SHIPPING <a href="#">SHOP NOW</a></div>
   <nav>
-    <ul className="navigation-links">
-      <li><a href="#">Shop</a>
-        <ul className="subnav">
-          <li className="card-med" id="sup-dog">
-						<div className="card-image"><img src="https://ouch-cdn2.icons8.com/qPvaAv2gxwM3l0z7dl_eoh9v6h58HlzewBUfEgX6AZE/rs:fit:368:386/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMTIv/ZmM4YjNlYmItMDNj/Ni00NGM3LTliNGUt/YTUyOWUzOGU4NTE2/LnBuZw.png"/></div>
-						<a href="#">
-							<span>Dogs</span>
-							<span>Shop All <span className="material-symbols-outlined">
-                            &gt;
-								</span></span>
-						</a>
-					</li>
-          
-        </ul>
-      </li>
-      <li><a href="#">Collections</a></li>
-      <li><a href="#">Pages</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-    <div id="logo">
+  <div id="logo">
       <svg height="70px" width="70px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 215.17 215.17" xmlSpace="preserve" fill="#000000">
         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -51,6 +32,139 @@ export default function Navigation() {
       </svg>
       <span>Groovy <br/>Shades</span>
     </div>
+    <ul class="navigation-links">
+      <li><a href="#">Sunglasses</a>
+        <ul class="subnav">
+          <li>
+            <ul>
+              <li><strong>Eyeglass Categories</strong></li>
+              <li>Men's Sunglasses</li>
+              <li>Women's Sunglasses</li>
+              <li>Kid's Sunglasses</li>
+              <li>Replacement Rx Sunglasses </li>
+              <li>New Arrivals</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Top Sunglasses Brands</strong></li>
+              <li>Oakley</li>
+              <li>MauiJim</li>
+              <li>Wiley X</li>
+              <li>Heat Wave </li>
+              <li>Rudy Project</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Groovy Exclusive</strong></li>
+              <li>Groovy Sunglasses</li>
+              <li>Nike Rabid 22</li>
+              <li>Accessories</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Eyeglasses</a>
+          <ul class="subnav">
+          <li>
+            <ul>
+              <li><strong>Eyeglass Categories</strong></li>
+              <li>Men's Sunglasses</li>
+              <li>Women's Sunglasses</li>
+              <li>Kid's Sunglasses</li>
+              <li>Replacement Rx Sunglasses </li>
+              <li>New Arrivals</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Top Sunglasses Brands</strong></li>
+              <li>Oakley</li>
+              <li>MauiJim</li>
+              <li>Wiley X</li>
+              <li>Heat Wave </li>
+              <li>Rudy Project</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Groovy Exclusive</strong></li>
+              <li>Groovy Sunglasses</li>
+              <li>Nike Rabid 22</li>
+              <li>Accessories</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Goggles</a>
+          <ul class="subnav">
+          <li>
+            <ul>
+              <li><strong>Eyeglass Categories</strong></li>
+              <li>Men's Sunglasses</li>
+              <li>Women's Sunglasses</li>
+              <li>Kid's Sunglasses</li>
+              <li>Replacement Rx Sunglasses </li>
+              <li>New Arrivals</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Top Sunglasses Brands</strong></li>
+              <li>Oakley</li>
+              <li>MauiJim</li>
+              <li>Wiley X</li>
+              <li>Heat Wave </li>
+              <li>Rudy Project</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Groovy Exclusive</strong></li>
+              <li>Groovy Sunglasses</li>
+              <li>Nike Rabid 22</li>
+              <li>Accessories</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Lenses</a>
+          <ul class="subnav">
+          <li>
+            <ul>
+              <li><strong>Eyeglass Categories</strong></li>
+              <li>Men's Sunglasses</li>
+              <li>Women's Sunglasses</li>
+              <li>Kid's Sunglasses</li>
+              <li>Replacement Rx Sunglasses </li>
+              <li>New Arrivals</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Top Sunglasses Brands</strong></li>
+              <li>Oakley</li>
+              <li>MauiJim</li>
+              <li>Wiley X</li>
+              <li>Heat Wave </li>
+              <li>Rudy Project</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><strong>Groovy Exclusive</strong></li>
+              <li>Groovy Sunglasses</li>
+              <li>Nike Rabid 22</li>
+              <li>Accessories</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">Explore</a></li>
+    </ul>
+  
     <div id="utility">
       <i className="icons fa fa-search"></i>
       <i className='icons fas fa-user-alt'> </i>
