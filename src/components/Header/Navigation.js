@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div>
         <header>
-  <div className="banner">SAVE UP TO $40 ON ALL SUNGLASSES • FREE STANDARD SHIPPING <a href="#">SHOP NOW</a></div>
+  <div className="sale-banner">SAVE UP TO $40 ON ALL SUNGLASSES • FREE STANDARD SHIPPING <a href="#">SHOP NOW</a></div>
   <nav>
   <div id="logo">
       <svg height="70px" width="70px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 215.17 215.17" xmlSpace="preserve" fill="#000000">
