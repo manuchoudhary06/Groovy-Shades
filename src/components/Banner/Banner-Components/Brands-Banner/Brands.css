@@ -1,0 +1,28 @@
+.brands {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.brands ul.list-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brands ul.list-images li.brand-child {
+  width: 14.28571429%;
+  padding: 0 15px;
+}
+
+.brands ul.list-images li.brand-child a.more-brands:hover {
+  color: red;
+}
+/*# sourceMappingURL=Brands.css.map */

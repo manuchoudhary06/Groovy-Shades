@@ -1,0 +1,23 @@
+@import "./../Global/global.scss";
+
+.brands{
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    ul.list-images{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      align-items: center;
+      li.brand-child{
+        width: 14.28571429%;
+        padding: 0 15px;
+        a.more-brands{
+          &:hover{
+            color: $color;
+          }
+        }
+      }
+    }
+  }
+  

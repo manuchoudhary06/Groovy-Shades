@@ -1,18 +1,5 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+@import "./../Global/global.scss";
 
-// variables
-$navigation-background-color: #ffd9da;
-$color: #89023e;
-$hover-timing: all 0.2s ease;
-$subnav-link-colors: #1b2021;
-
-body {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 a {
   text-decoration: none;
   cursor: pointer;
@@ -55,6 +42,7 @@ nav {
           visibility: visible;
           opacity: 1;
           top: 64px;
+          z-index: 2;
         }
       }
     }

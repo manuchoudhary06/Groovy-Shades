@@ -32,9 +32,9 @@ export default function Navigation() {
       </svg>
       <span>Groovy <br/>Shades</span>
     </div>
-    <ul class="navigation-links">
+    <ul className="navigation-links">
       <li><a href="#">Sunglasses</a>
-        <ul class="subnav">
+        <ul className="subnav">
           <li>
             <ul>
               <li><strong>Eyeglass Categories</strong></li>
@@ -66,7 +66,7 @@ export default function Navigation() {
         </ul>
       </li>
       <li><a href="#">Eyeglasses</a>
-          <ul class="subnav">
+          <ul className="subnav">
           <li>
             <ul>
               <li><strong>Eyeglass Categories</strong></li>
@@ -98,7 +98,7 @@ export default function Navigation() {
         </ul>
       </li>
       <li><a href="#">Goggles</a>
-          <ul class="subnav">
+          <ul className="subnav">
           <li>
             <ul>
               <li><strong>Eyeglass Categories</strong></li>
@@ -130,7 +130,7 @@ export default function Navigation() {
         </ul>
       </li>
       <li><a href="#">Lenses</a>
-          <ul class="subnav">
+          <ul className="subnav">
           <li>
             <ul>
               <li><strong>Eyeglass Categories</strong></li>

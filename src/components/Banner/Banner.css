@@ -1,0 +1,101 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.carousel .carousel-inner .slide {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.carousel .carousel-inner .slide .overlay {
+  width: 45%;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.carousel .carousel-inner .slide .overlay h2 {
+  font-size: 49px;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.carousel .carousel-inner .slide .overlay p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.carousel .carousel-inner .slide .overlay .banner-button {
+  margin-top: 30px;
+}
+
+.carousel .carousel-inner .slide .overlay .banner-button a {
+  background-color: #ffd9da;
+  padding: 15px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.carousel .carousel-inner .slide .overlay .banner-button a:hover {
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel .carousel-inner .slide img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.brands {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.brands ul.list-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brands ul.list-images li.brand-child {
+  width: 14.28571429%;
+  padding: 0 15px;
+}
+
+.brands ul.list-images li.brand-child a.more-brands:hover {
+  color: red;
+}
+/*# sourceMappingURL=Banner.css.map */
