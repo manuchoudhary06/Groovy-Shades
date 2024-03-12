@@ -1,74 +1,23 @@
 // Banner
-
-.carousel {
-    overflow: hidden;
-    width: 100%;
-    .carousel-inner {
-      display: flex;
-      transition: transform 0.5s ease;
-      .slide {
-        position: relative;
-        flex: 0 0 100%;
-        .overlay {
-          width: 45%;
-          position: absolute;
-          top: 40%;
-          left: 25%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          color: white;
-          h2 {
-            font-size: 49px;
-            font-weight: 600;
-            line-height: 55px;
-          }
-          p {
-            font-size: 20px;
-            letter-spacing: 1px;
-            line-height: 25px;
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-top: 10px;
-          }
-          .banner-button {
-            margin-top: 30px;
-            a {
-              background-color: #ffd9da;
-              padding: 15px;
-              margin-right: 10px;
-              text-transform: uppercase;
-              &:hover {
-                box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
-              }
-            }
-          }
-        }
-        img {
-          width: 100%;
-          height: 500px;
-          object-fit: cover;
-          object-position: center;
-        }
-      }
-    }
-  }
-  
-  //Banner Brands
-  .brands{
-    width: 95%;
-    margin: 0 auto;
-    padding: 10px;
-    ul.list-images{
+@import "./../Global/global.scss";
+.brands {
+    padding: 30px 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d3d3d3;
+    ul.list-images {
+      width: 95%;
+      margin: 0 auto;
       display: flex;
       justify-content: space-between;
       list-style: none;
       align-items: center;
-      li.brand-child{
+      li.brand-child {
         width: 14.28571429%;
         padding: 0 15px;
-        a.more-brands{
-          &:hover{
-            color: red;
+        a.more-brands {
+          color: #222222;
+          &:hover {
+            @include linearDecoration;
           }
         }
       }

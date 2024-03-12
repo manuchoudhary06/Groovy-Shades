@@ -3,10 +3,22 @@
     padding: 0;
     margin: 0;
   }
-  
   // variables
-  $navigation-background-color: #ffd9da;
-  $color: #89023e;
+  $color: #222222;
   $hover-timing: all 0.2s ease;
-  $subnav-link-colors: #1b2021;
-  
+  @mixin linearDecoration {
+    background: linear-gradient(
+      342deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 74, 9, 1) 39%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $color;
+  }

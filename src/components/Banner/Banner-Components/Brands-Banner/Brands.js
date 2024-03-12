@@ -1,3 +1,5 @@
+import './Brands.scss'
+
 const Brands = () => {
   return (
     <div className="brands">

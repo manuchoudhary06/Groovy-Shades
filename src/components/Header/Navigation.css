@@ -5,24 +5,23 @@
   margin: 0;
 }
 
-body {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #89023e;
+  color: #222222;
 }
 
 .sale-banner {
   text-align: center;
-  background-color: #ea638c;
+  background-color: #f7f7f7;
   padding: 10px;
+  border-bottom: 2px solid #cdcdcd;
 }
 
 .sale-banner a {
-  color: #fff;
+  background: linear-gradient(342deg, #020024 0%, #794a09 39%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 nav {
@@ -35,7 +34,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffd9da;
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -48,19 +47,6 @@ nav ul li {
   margin-right: 15px;
   font-size: 18px;
   position: relative;
-}
-
-nav ul li:before {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: #000;
-  position: absolute;
-  bottom: -4px;
-}
-
-nav ul li:hover:before {
-  width: 100%;
 }
 
 nav ul li:hover ul.subnav {
@@ -77,7 +63,7 @@ nav #utility {
 nav #utility i.icons {
   margin-right: 20px;
   font-size: 20px;
-  color: #89023e;
+  color: #222222;
 }
 
 nav #utility i.icons:hover {
@@ -100,7 +86,10 @@ nav #logo {
 nav #logo span {
   font-size: 30px;
   margin-left: 10px;
-  color: #89023e;
+  font-family: "Playfair Display", serif;
+  background: linear-gradient(342deg, #020024 0%, #794a09 39%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 nav .navigation-links .subnav {
@@ -126,12 +115,6 @@ nav .navigation-links .subnav {
 
 nav .navigation-links .subnav li {
   font-size: 14px;
-  color: #1b2021;
-}
-
-nav .navigation-links .subnav li:before {
-  content: "";
-  width: 0;
 }
 
 nav .navigation-links .subnav li ul li {
@@ -139,7 +122,7 @@ nav .navigation-links .subnav li ul li {
 }
 
 nav .navigation-links .subnav li ul li:not(:first-child):hover {
-  color: #738290;
+  color: #cdcdcd;
 }
 
 nav .navigation-links .subnav li ul li:first-child {

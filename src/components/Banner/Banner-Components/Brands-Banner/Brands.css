@@ -1,3 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #222222;
+}
+
 .brands {
   width: 95%;
   margin: 0 auto;
@@ -23,6 +36,6 @@
 }
 
 .brands ul.list-images li.brand-child a.more-brands:hover {
-  color: red;
+  color: #222222;
 }
 /*# sourceMappingURL=Brands.css.map */

@@ -4,4 +4,10 @@
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #222222;
+}
 /*# sourceMappingURL=global.css.map */
