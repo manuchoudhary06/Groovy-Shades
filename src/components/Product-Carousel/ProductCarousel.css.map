@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACV;;AAeD,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,OAAO;EACf,KAAK,EAhBC,OAAO;CAiBd",
+    "sources": [
+        "ProductCarousel.scss",
+        "../Global/global.scss"
+    ],
+    "names": [],
+    "file": "ProductCarousel.css"
+}
